@@ -1,0 +1,6 @@
+<launch>
+<node name='record_odom_action_server_node' pkg='my_turtlebot_main' type='rec_odom_action_server.py' output='screen'/>
+<node name='detection_service' pkg='my_turtlebot_main' type='collision_check.py' output='screen'/>
+<node name='my_node' pkg='my_turtlebot_main' type='turtlebot_main.py' output='screen'/>
+</launch>
+

@@ -1,0 +1,4 @@
+<launch>
+<node pkg='ex22' name='topic_subscriber' type='sub_odom.py' output='screen'>
+</node>
+</launch>
