@@ -1,0 +1,6 @@
+#goal, empty
+---
+#result, Odometry value
+nav_msgs/Odometry[] result_odom_array
+---
+#feedback, empty

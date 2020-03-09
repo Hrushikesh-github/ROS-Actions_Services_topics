@@ -1,0 +1,5 @@
+<launch>
+<include file="$(find iri_wam_reproduce_trajectory)/launch/start_service.launch"/>
+<node pkg='unit_3_services' name='service_client' type='exercise_3_1.py' output='screen'/>
+
+</launch>
