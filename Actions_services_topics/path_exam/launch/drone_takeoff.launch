@@ -1,0 +1,3 @@
+<launch>
+<node name="drone_takeoff" type="drone_takeoff.py" pkg="path_exam" output="screen"/>
+</launch>

@@ -1,0 +1,6 @@
+<launch>
+<node pkg='path_exam' name='my_action' type='check_distance_action.py' output='screen'/>
+<node pkg='path_exam' name='my_service' type='distance_motion_service.py' output='screen'/>
+<node pkg='rosservice' type='rosservice' name='arbitary_name' args='call --wait /my_service "{}" ' />
+<node pkg="path_exam" name="foo" type="my_script.sh" />
+</launch>
