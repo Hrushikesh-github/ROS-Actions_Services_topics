@@ -16,6 +16,7 @@ The following were done to get the turtlebot out of the maze:
    Trigger.srv service message type was used for this purpose.
 4. Created an action, that, when called, will start to save odometry data and check if the robot has exited the maze. The        action also stops and generates a warning message when certain time limit is exceeded( 35 sec here). 
    A new action message type was created for this purpose. 
+   
    \#goal, empty                
    ---                             
    \#result, Odometry array             
@@ -26,7 +27,7 @@ The following were done to get the turtlebot out of the maze:
 ### Screenshots
 ![turtlebot1](https://user-images.githubusercontent.com/56476887/85292699-f0325000-b4b9-11ea-9b09-855d5650c013.png)
 
-![turtle_proj2](https://user-images.githubusercontent.com/56476887/85292707-f4f70400-b4b9-11ea-8234-f303ca52837e.png)
+![turtlebot](https://user-images.githubusercontent.com/56476887/85299116-7d79a280-b4c2-11ea-875e-11e3050c13fd.gif)
 
 
 
