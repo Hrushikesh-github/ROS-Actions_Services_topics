@@ -20,11 +20,15 @@ The following were done to get the turtlebot out of the maze
    A new action message type was created for this purpose. 
    
    
-   Action message used:
+   Action message used
+   
    empty                
+   
    ---                             
+   
    Odometry array             
    nav_msgs/Odometry[] result_odom_array                
+   
    ---                             
    empty
 
@@ -49,3 +53,4 @@ Created a package which takeoffs the AR Drone, moves it with a velocity of 1m/s 
 ![terminal1](https://user-images.githubusercontent.com/56476887/85295889-312c6380-b4be-11ea-8f8f-2facc109545f.png)
 ![terminal2](https://user-images.githubusercontent.com/56476887/85295886-2ffb3680-b4be-11ea-990f-67820ab27da6.png)
 ![drone_motion](https://user-images.githubusercontent.com/56476887/85292688-e9a3d880-b4b9-11ea-9569-3fb1026796e2.gif)
+
