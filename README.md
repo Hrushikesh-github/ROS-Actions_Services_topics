@@ -1,9 +1,9 @@
 # ROS-Actions_Services_topics
 Packages related to ROS Action, Services and topics.
 
-I have created various services, action clients. action servers etc but I have only written about 2 of my mini projects below:
+I have created various services, action clients. action servers etc. Two of my mini projects are mentioned below:
 
-As part of a project https://rds.theconstructsim.com/tc_projects/use_project_share_link/4bcc0470-4192-4649-b354-8cfdd450ae8f?utm_source=books&utm_medium=basics&utm_campaign=turtle
+As part of a [project](https://rds.theconstructsim.com/tc_projects/use_project_share_link/4bcc0470-4192-4649-b354-8cfdd450ae8f?utm_source=books&utm_medium=basics&utm_campaign=turtle)
 where the goal is to get the turtlebot out of the maze without any collision but without using any global or local map. 
 The turtlebot has odometry sensors and a 180 degree laser scan which can provide details such as in the near environment
 but restircted to 180 degrees.
